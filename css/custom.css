@@ -172,10 +172,39 @@ body {
   font-size: 18px;
 }
 
-/*Footer*/
-
 /* RESPONSIVE CSS */
+@media (max-width: 320px){
+  .navbar{
+    padding-bottom: 30px;
+  }
 
+  .container iframe{
+    max-width: 250px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  .carousel-caption p {
+    margin-bottom: 10px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+
+}
 @media (min-width: 768px) {
   .navbar-wrapper {
     margin-top: 20px;
